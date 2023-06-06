@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IWP Health App</title>
+    <link rel="stylesheet" type="text/css" href="css/simple.css">
+</head>
+<body>
+
+<section> 
+  <h1 id="id1"> IWP Blood Alcohol Content Tracker</h1>
+  <form id="bacDrinkForm" action="bac-records" method="post">
+    <fieldset>
+      <legend>Drink Reporter:</legend>
+      <div class="myFormLayout"> 
+      <label for="name_id"> Name</label>
+      <input type="text" name="name" id="name_id" placeholder="Mickey" required minlength="1" maxlength="30">  
+ 
+  <input type="submit" id="drinkBtn_id" value="Took a Drink!">
+</div>   
+</fieldset>
+</form>
+
+
+<script  src="js/bac-client.js"></script> 
+</section>
+
+
+</body>
+</html>
